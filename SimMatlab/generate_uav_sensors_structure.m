@@ -13,16 +13,16 @@ uavSensors.params=[];
 uavSensors.time_s = uavTruth.time_s;
 
 % 设置传感器测量噪声特性
-uavSensors.sigmas.gyro_noise_rps            = 0.01;     % 陀螺仪测量高斯噪声特性，rad/s
-uavSensors.sigmas.gyro_bias_rps             = 0.01;     % 陀螺仪测量常值偏差特性，rad/s
-uavSensors.sigmas.accel_noise_mps2          = 0.1;      % 加速度计测量高斯噪声特性，m/s^2
-uavSensors.sigmas.accel_bias_mps2           = 0.1;      % 加速度计测量常值偏差特性，m/s^2
-uavSensors.sigmas.GPSpos_noise_m            = 2;        % GPS位置测量高斯噪声特性，m
-uavSensors.sigmas.GPSpos_bias_m             = 0;        % GPS位置测量常值偏差，m
-uavSensors.sigmas.GPSvel_noise_mps          = 1;        % GPS速度测量高斯噪声特性, m/s
-uavSensors.sigmas.GPSvel_bias_mps           = 0;        % GPS速度测量常值偏差，m/s
-uavSensors.sigmas.mag3D_unitVector_noise    = 0.02;     % 磁强计3D测量噪声特性（单位向量）
-uavSensors.sigmas.mag3D_unitVector_bias     = 0;     % 磁强计3D测量常值偏差特性（单位向量）
+uavSensors.sigmas.gyro_noise_rps            = 0.005;%0.01;     % 陀螺仪测量高斯噪声特性，rad/s
+uavSensors.sigmas.gyro_bias_rps             = 0.01;%0.01;     % 陀螺仪测量常值偏差特性，rad/s
+uavSensors.sigmas.accel_noise_mps2          = 0.01;%0.1;      % 加速度计测量高斯噪声特性，m/s^2
+uavSensors.sigmas.accel_bias_mps2           = 0.05;%0.1;      % 加速度计测量常值偏差特性，m/s^2
+uavSensors.sigmas.GPSpos_noise_m            = 1;%2;        % GPS位置测量高斯噪声特性，m
+uavSensors.sigmas.GPSpos_bias_m             = 0;%0;        % GPS位置测量常值偏差，m
+uavSensors.sigmas.GPSvel_noise_mps          = 0.05;%1;        % GPS速度测量高斯噪声特性, m/s
+uavSensors.sigmas.GPSvel_bias_mps           = 0;%0;        % GPS速度测量常值偏差，m/s
+uavSensors.sigmas.mag3D_unitVector_noise    = 0.02;%0.02;     % 磁强计3D测量噪声特性（单位向量）
+uavSensors.sigmas.mag3D_unitVector_bias     = 0;%0;     % 磁强计3D测量常值偏差特性（单位向量）
 
 % 设置 GPS 更新频率
 uavSensors.params.dt_GPS_s = 1.0;  % GPS更新时间间隔，s
