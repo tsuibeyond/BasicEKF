@@ -1,0 +1,27 @@
+﻿  main.cpp
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(23,343): warning C4305:  “初始化”: 从“double”到“DataType”截断
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(26,49): warning C4305:  “初始化”: 从“double”到“DataType”截断
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(29,96): warning C4305:  “初始化”: 从“double”到“DataType”截断
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(121,29): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(127,29): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(133,29): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(139,29): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(145,30): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(151,30): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(157,30): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(169,30): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(182,27): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(188,27): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(194,30): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(200,29): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(206,29): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(212,29): warning C4244:  “=”: 从“double”转换到“DataType”，可能丢失数据
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\InsGpsEulerDirectEKF.hpp(120,1): warning C4305:  “=”: 从“double”到“Type”截断
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\InsGpsEulerDirectEKF.hpp(120,1): warning C4305:         with
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\InsGpsEulerDirectEKF.hpp(120,1): warning C4305:         [
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\InsGpsEulerDirectEKF.hpp(120,1): warning C4305:             Type=DataType
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\InsGpsEulerDirectEKF.hpp(120,1): warning C4305:         ]
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\InsGpsEulerDirectEKF.hpp(111): message :  在编译 类 模板 成员函数“void clsInsGpsLooseEulerDirectEKF<DataType,15,1,6>::init_xhat(void)”时
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\InsGpsEulerDirectEKF.hpp(106): message :  查看对正在编译的函数 模板 实例化“void clsInsGpsLooseEulerDirectEKF<DataType,15,1,6>::init_xhat(void)”的引用
+D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\main.cpp(18): message :  查看对正在编译的 类 模板 实例化“clsInsGpsLooseEulerDirectEKF<DataType,15,1,6>”的引用
+  InsGpsEulerDirectEKF.vcxproj -> D:\WORK\DEVO\paper\PAPER3_observation_for_nolinear_filter\code\SimCpp\InsGpsEulerDirectEKF\Debug\InsGpsEulerDirectEKF.exe
